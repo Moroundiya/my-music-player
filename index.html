@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link type="text/css" rel="stylesheet" href="music player.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0a2fc2b5de.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="music.png">
+</head>
+
+<body>
+
+    <div class="row" id="div-all">
+        <p class="name"> Moroundiya Music Player ©</p>
+        <div class="left-div col-lg-5 col-md-12">
+            <i class="fas fa-list" id="music-list-icon"></i>
+            <img class="music-img" id="music-img" src="music.png">
+            <div id="change-name">
+                <p id="artist-name">Artist Name</p>
+                <p id="music-title">Music Title</p>
+            </div>
+        </div>
+
+        <div class="music-list col-lg-7 col-md-12">
+            <ol>
+                <li>Roddy Ricch - Ricch Forever</li>
+                <li>Roddy Ricch - The Box</li>
+                <li>Roddy Ricch - Project Dreams</li>
+                <li>Roddy Ricch - Every Season</li>
+                <li>Roddy Ricch - Late At Night</li>
+                <li>Roddy Ricch - Rockstar ft. Da Baby</li>
+                <li>Roddy Ricch - Big Stepper</li>
+                <li>Roddy Ricch - God's Eyes</li>
+                <li>Roddy Ricch - Perfect Time</li>
+                <li>Roddy Ricch - Ballin ft. Mustard</li>
+                <li>Juice WRLD - Wishing Well</li>
+                <li>Juice WRLD - Stay High</li>
+                <li>Juice WRLD - Legend</li>
+                <li>Juice WRLD - Lucid Dreams</li>
+                <li>Juice WRLD - All Girls Are The Same</li>
+                <li>Juice WRLD - Rich And Blind</li>
+                <li>Juice WRLD - Think Too Much</li>
+                <li>Juice WRLD - Righteous</li>
+                <li>Juice WRLD - Life's A Mess</li>
+                <li>Juice WRLD - Fighting Demons</li>
+            </ol>
+        </div>
+
+        <footer id="footer" class="">
+
+
+
+
+            <section id="all1">
+                <img class="" src="music.png" id="footer-img">
+                <i class="fas fa-fast-backward" id="previous-btn"></i>
+                <i class="fas fa-play play-btn" id="play-btn"></i>
+                <i class="fas fa-pause pause-btn" id="pause-btn"></i>
+                <i class="fas fa-fast-forward" id="next-btn"></i>
+
+            </section>
+
+            <section id="all2">
+                <p id="reading-time">
+                    <span id="start-min">0:</span>
+                    <span id="start-sec">00</span>
+                </p>
+
+                <meter value="" id="meter"></meter>
+                <p id="finish-time">
+                    <span id="finish-min">0:00</span>
+                </p>
+
+            </section>
+
+            <section id="all3">
+                <i class="fas fa-redo-alt" id="repeat-btn"></i>
+                <i class="fas fa-random " id="shuffle-btn"></i>
+                <i class="fas fa-heart love" id="love"></i>
+                <i class="fas fa-volume-up" id="volume-btn"></i> <input type="range" id="range" min="0" max="100"
+                    step="1" value="100">
+            </section>
+
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="music player.js"> </script>
+</body>
+
+</html>
